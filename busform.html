@@ -1,0 +1,103 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus form</title>
+</head>
+<body>
+    <fieldset>
+        <legend><mark>APPLICANT DETAILS</mark></legend>
+        <lable for="Name">Name*</lable>
+        <input type="text">
+        <lable for="Father Name">Father Name*</lable>
+        <input type="text"><br>
+        <lable for="Date Of Birth">Date Of Birth*</lable>
+        <input type="text">
+        <lable for="Gender">Gender*</lable>
+        <input type="radio" name="gen">male
+         <input type="radio" name="gen">Female<br>
+         <lable for="Aadhaar No">Aadhaar No*</lable>
+         <input type="text">
+         <lable for="Age As On">Age As On</lable>
+         <input type="text">years() manths() days()<br>
+         <lable for="WhatsApp No">WhatsApp No*</lable>
+         <input type="text" pattern="[6-9] [0-9]+" minlength="10" maxlength="10" title="mobile number start with 6/7/8/9 and length should be 10" >
+         <lable for="Email Address">Email Address*</lable>
+         <input type="email" pattern="[a-z]+[0-9]+[!@#$%^&*]@gmail.com" name="mail" title="example": abc123!@gmail.com mail id should be like this><br>
+         <lable for="Photo">Photo*</lable>
+         <input type="file">
+          </fieldset>
+          <fieldset>
+            <legend><mark>Residential Address Details </mark></legend>
+            <lable for="Applicant Address">Applicant Address*</lable>
+             <textarea name=""></textarea>
+            <lable for="Distric*">Distric*</lable>
+            <select name=""id="">
+            <option value="Hyderabad" selectd>Hyderabad</option>
+            </select><br>
+           <lable for="Mondal">Mondal*</lable>
+           <select name=""id="">
+            <option value="VIJAYAWADA"selected>VIJAYAWADA</option>
+         </select>
+         <lable for="Village*">Village*</lable>
+         <select name=""id="">
+             <option value="Kankipadu"selected>Kankipadu</option>
+              <option value="Mangalagiri" select>Mangalagiri</option> 
+               <option value="dornala"selected>dornala</option>
+                <option value="Ramachandra Kota"selected>Ramachandra Kota</option>
+                 <option value="uppuluru"selected>uppuluru</option>
+
+         </select><br>
+         <lable for="Pin Code">Pin Code*</lable>
+         <input type="number">
+ </fieldset>
+<fieldset>
+    <legend><mark>PASS TYPE DETAILS</mark></legend>
+    <lable for="City">City*</lable>
+  <select name=""id="">
+    <option value="VIJAYAWADA"select>Vijayawada</option>
+    <option value="GOA"select>Goa</option>
+    <option value=""select>Vizag</option>
+    <option value=""select>Hyderabad</option>
+    <option value=""select>Guntur</option></select><br>
+    <lable for=" ">Pass Type*</lable>
+    <select name=""id="">
+        <option value="">----Select----</option>
+         <option value="">Greater pass</option>
+         <option value="">Metro pass</option>
+          <option value="">Metro Express pass</option>
+           <option value="">Deluxe pass</option>
+      </select> 
+     </fieldset>
+     <fieldset>
+        <legend><mark>Mode Of Payment & Pass Collection</mark></legend>
+        <lable for="">Payment mode*</lable>
+        <select name=""id="">
+            <option value="">select paymrnt mode</option>
+             <option value="">select paymrnt mode</option>
+              <option value="">payment at counter</option></select><br>
+              <lable for="">Pass Deliver Mode*</lable>
+              <select name=""id="">
+                <option value="">select pass deliver mode</option>
+                 <option value="">select pass deliver mode</option>
+                  <option value="">At Counter</option></select><br>
+                  <lable for="">Center At Which You Want To Collect Pass*</lable>
+                  <Select name=""id="">
+                    <option value="">-----Select----</option>
+                    <option value="">RTC KPHB-HYD</option>
+                    <option value="">RTC KOTI-HYD</option>
+                    <option value="">RTC UPPAL-HYD</option>
+                    <option value="">RTC AMEERPET-HYD</option>
+                    <option value="">RTC KACHIGUDA-HYD</option>
+                    <option value="">RTCSTADIUM-HYD</option> <br>
+                </Select>
+                <center><mark>Submit</mark></center>
+              </fieldset>
+    
+</body>
+</html> 
+
+
+
+
